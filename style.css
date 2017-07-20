@@ -1,0 +1,30 @@
+.body,
+html {
+  width: 100%;
+  height: 100%; }
+
+.container {
+  font-family: 'Ubuntu', sans-serif;
+  font-family: 'Architects Daughter', cursive;
+  width: 300px;
+  margin: 0 auto; }
+  .container > h1 {
+    font-size: 3em;
+    text-align: center; }
+
+.row {
+  font-size: 5em;
+  width: 110%;
+  border-bottom: 10px solid black;
+  text-align: center; }
+  .row:last-child {
+    border-bottom: none; }
+  .row > .cell {
+    border-right: 10px solid black;
+    width: 100px;
+    height: 100px;
+    display: table-cell; }
+    .row > .cell:last-child {
+      border-right: none; }
+
+/*# sourceMappingURL=style.css.map */
